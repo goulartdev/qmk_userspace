@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         _______,       _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,  KC_PGUP,  KC_PGDN,  _______,
         _______,       _______,  _______,  _______,  _______,  _______,  KC_LEFT,  KC_DOWN,  KC_UP,    KC_RIGHT, KC_HOME,  KC_END,             _______,
         _______,       _______,  KC_DEL,   _______,  _______,  _______,  _______,  _______,  _______,  _______,  _______,                      _______,
-        _______,       _______,  _______,                                _______,                                _______,  _______,  _______,  _______),
+    LM(FN, MOD_LCTL),  _______,  LM(FN, MOD_LGUI),                       _______,                                _______,  _______,  _______,  _______),
 
     [FN1] = LAYOUT_61_ansi(
         _______,       KC_MUTE,  KC_VOLD,  KC_VOLU,  KC_MPLY,  KC_MPRV,  KC_MNXT,  KC_BRID,  KC_BRIU,  XXXXXXX,  XXXXXXX,  KC_SLEP,  KC_PWR,   BAT_LVL,
