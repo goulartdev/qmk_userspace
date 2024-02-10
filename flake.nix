@@ -1,5 +1,10 @@
 {
-  description = "Sicar remade";
+  description = "QMK userspace";
+
+  # make sure to have this on configuration.nix
+  # services.udev.packages = with pkgs; [
+  #   qmk-udev-rules
+  # ];
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
