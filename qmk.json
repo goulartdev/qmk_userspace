@@ -1,4 +1,6 @@
 {
     "userspace_version": "1.0",
-    "build_targets": []
+    "build_targets": [
+        ["keychron/k9_pro/ansi/rgb", "goulartdev2"]
+    ]
 }
